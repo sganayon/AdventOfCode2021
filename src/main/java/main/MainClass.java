@@ -6,7 +6,7 @@ import puzzle.*;
 @Slf4j
 public class MainClass {
     public static void main(String[] args) {
-        Puzzle puzzle = new Day6P2();
+        Puzzle puzzle = new Day8P2();
         String result = puzzle.solve();
         log.info("Result is : {}", result);
     }
